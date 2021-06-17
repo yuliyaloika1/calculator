@@ -1,0 +1,158 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-06-17T12:35:25.517Z",
+    "end": "2021-06-17T12:35:25.531Z",
+    "duration": 14,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "06a03db3-cc47-4812-9343-083401c512fb",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "385d0a5f-d54f-474b-9d4c-a99b49f58230",
+          "title": "calculator",
+          "fullFile": "C:\\Autotask\\calculator\\calculator\\test\\specs\\calculator_test.spec.js",
+          "file": "\\test\\specs\\calculator_test.spec.js",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "3b4e2420-69c7-48be-bd0e-9b84fbe95ba4",
+              "title": "add()",
+              "fullFile": "C:\\Autotask\\calculator\\calculator\\test\\specs\\calculator_test.spec.js",
+              "file": "\\test\\specs\\calculator_test.spec.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should add 2 numbers together",
+                  "fullTitle": "calculator add() should add 2 numbers together",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "expect(calculator.add(1, 4)).to.be.equal(5);",
+                  "err": {},
+                  "uuid": "5fa8684c-a1fb-41bb-8099-5f7982d303b7",
+                  "parentUUID": "3b4e2420-69c7-48be-bd0e-9b84fbe95ba4",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "5fa8684c-a1fb-41bb-8099-5f7982d303b7"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "9f78e4b6-e7ab-486b-8aa0-df28a6c49cee",
+              "title": "multiply()",
+              "fullFile": "C:\\Autotask\\calculator\\calculator\\test\\specs\\calculator_test.spec.js",
+              "file": "\\test\\specs\\calculator_test.spec.js",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "should multiply 2 numbers together",
+                  "fullTitle": "calculator multiply() should multiply 2 numbers together",
+                  "timedOut": false,
+                  "duration": 1,
+                  "state": "passed",
+                  "speed": "fast",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "expect(calculator.multiply(1, 4)).to.be.equal(4);",
+                  "err": {},
+                  "uuid": "9cf09e5e-a2dd-4527-8898-e3a2858240ce",
+                  "parentUUID": "9f78e4b6-e7ab-486b-8aa0-df28a6c49cee",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "9cf09e5e-a2dd-4527-8898-e3a2858240ce"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 1,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "9.0.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}

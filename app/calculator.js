@@ -7,4 +7,4 @@ const add = (x, y) => {
   module.exports = {
     add,
     multiply,
-  };
+  }
